@@ -1,0 +1,39 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: fadmin-gateway
+  namespace: kaifa
+spec:
+  replicas: 1
+  template:
+    metadata:
+     labels:
+       name: fadmin-gateway
+    spec:
+     containers:
+     - name: fadmin-gateway
+       image: 192.168.0.209/kaifa/fadmin-gateway
+       tty: true
+       ports:
+       - containerPort: 80
+       resources:
+         limits:
+           cpu: 900m
+           memory: 1500Mi
+         requests:
+           cpu: 200m
+           memory: 500Mi	   
+       volumeMounts:
+       - name: accesslogs
+         mountPath: /data/logs
+       env:
+        - name: aliyun_fadmin_gateway
+          value: "stdout"                        ##采集标准输出日志
+        - name: aliyun_logs_fadmingateway
+          value: "/data/logs/fadmingateway.log"              ## 采集容器内日志文件 
+     volumes:
+      - name: accesslogs
+        persistentVolumeClaim: 
+         claimName: k8s-logs
+     imagePullSecrets:
+     - name: kaifa-secret

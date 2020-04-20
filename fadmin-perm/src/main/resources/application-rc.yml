@@ -1,0 +1,61 @@
+server:
+  port: 80
+  tomcat:
+    uri-encoding: UTF-8
+
+
+logging:
+  file: /data/logs/fauth.log
+  level:
+    org.springframework.web: info
+    f.s: debug
+
+spring:
+  datasource:
+    url: jdbc:mysql://rm-bp18d1hp3u3qso7ta.mysql.rds.aliyuncs.com:3306/fadmin_auth_rc?characterEncoding=UTF8&useSSL=false
+    username: root
+    password: XJS@#2018
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      filters: stat
+      maxActive: 20
+      initialSize: 1
+      maxWait: 60000
+      minIdle: 1
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: select 'x'
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      maxOpenPreparedStatements: 20
+  jackson:
+    date-format: "yyyy-MM-dd HH:mm:ss"
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: true
+
+#redis-cache 相关
+#redis:
+#  pool:
+#    maxActive: 300
+#    maxIdle: 100
+#    maxWait: 1000
+#  host: r-bp18c4e0cc101014.redis.rds.aliyuncs.com
+#  port:  6379
+#  timeout: 6000
+#  password: XJS#@!2018
+#  # 服务或应用名
+#  sysName: fadmin-perm
+#  enable: true
+#  database: 1
+
+mybatis:
+  mapper-locations: "classpath*:mapper/*.xml"
+
+service:
+  authService:
+    url: http://fadmin-auth

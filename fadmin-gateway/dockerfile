@@ -1,0 +1,5 @@
+#
+FROM 192.168.0.209/kaifa/jdk1.8
+COPY   target/fadmin-gateway-0.0.1-SNAPSHOT.jar /
+EXPOSE 80
+ENTRYPOINT ["java","-jar","/fadmin-gateway-0.0.1-SNAPSHOT.jar","--spring.profiles.active=test"]

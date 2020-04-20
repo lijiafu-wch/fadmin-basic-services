@@ -1,0 +1,124 @@
+server:
+  port: 80
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  application:
+    name: fadmingateway
+  jackson:
+    date-format: "yyyy-MM-dd HH:mm:ss"
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: true
+
+logging:
+  file: /data/logs/fadmingateway.log
+  level:
+    org.springframework.web: debug
+    f.s: debug
+  pattern:
+    file: '%d{yyyy-MM-dd HH:mm:ss.SSS} %5p -- [%t] %-40.40logger{39} : %m%n%xEx{10}'
+    console: '%d{yyyy-MM-dd HH:mm:ss.SSS} %5p -- [%t] %-40.40logger{39} : %m%n%xEx{10}'
+
+
+#路由配置
+zuul:
+  routes:
+    fadminperm:
+      path: /admin/perm/**
+      url: http://fadmin-perm
+      stripPrefix: false
+
+    fadminauth:
+      path: /admin/auth/**
+      url: http://fadmin-auth
+      stripPrefix: false
+
+    fadmincontest:
+      path: /admin/contest/**
+      url: http://fadmin-contest
+      stripPrefix: false
+
+    fadmincomment:
+      path: /admin/comment/**
+      url: http://fadmin-comment
+      stripPrefix: false
+
+    fadminuser:
+      path: /admin/user/**
+      url: http://fadmin-customer
+      stripPrefix: false
+
+    fadminsocial:
+      path: /admin/social/**
+      url: http://fadmin-social
+      stripPrefix: false
+
+    fadminad:
+      path: /admin/ad/**
+      url: http://fadmin-ad
+      stripPrefix: false
+
+    fjob-backend:
+      path: /admin/backend/**
+      url: http://fjob-manager
+      stripPrefix: false
+
+    fjob-task:
+      path: /admin/task/**
+      url: http://fjob-manager
+      stripPrefix: false
+
+    fadminpay:
+      path: /admin/pay/**
+      url: http://fadmin-pay
+      stripPrefix: false
+
+    #已合并为一个项目
+    fadmindiscovery:
+      path: /admin/discovery/**
+      url: http://fadmin-misc
+      stripPrefix: false
+
+    fadminform:
+      path: /admin/form/**
+      url: http://fadmin-misc
+      stripPrefix: false
+
+    fadminreport:
+      path: /admin/report/**
+      url: http://fadmin-misc
+      stripPrefix: false
+
+    fadminword:
+      path: /admin/word/**
+      url: http://fadmin-misc
+      stripPrefix: false
+
+    fadminoss:
+      path: /admin/media/**
+      url: http://fadmin-misc
+      stripPrefix: false
+
+    #机器人任务
+    fadminrobot:
+      path: /admin/robot/**
+      url: http://fadmin-customer
+      stripPrefix: false
+    #灰度
+    fadmingrayscale:
+      path: /admin/grayscale/**
+      url: http://fadmin-misc
+      stripPrefix: false
+    #课程
+    fadmincourse:
+      path: /admin/course/**
+      url: http://fadmin-course
+      stripPrefix: false
+
+service:
+  permService:
+    url: http://fadmin-perm
+  authService:
+    url: http://fadmin-auth

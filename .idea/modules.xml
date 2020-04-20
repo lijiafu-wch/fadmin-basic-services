@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fadmin-auth/fadmin-auth.iml" filepath="$PROJECT_DIR$/fadmin-auth/fadmin-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fadmin-basic-services.iml" filepath="$PROJECT_DIR$/.idea/fadmin-basic-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fadmin-common/fadmin-common.iml" filepath="$PROJECT_DIR$/fadmin-common/fadmin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fadmin-gateway/fadmin-gateway.iml" filepath="$PROJECT_DIR$/fadmin-gateway/fadmin-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fadmin-perm/fadmin-perm.iml" filepath="$PROJECT_DIR$/fadmin-perm/fadmin-perm.iml" />
+    </modules>
+  </component>
+</project>

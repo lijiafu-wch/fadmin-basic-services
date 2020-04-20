@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54670b6a-2bc8-4267-94ce-6c75f7ff6f85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/config/UrlFilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/runner/AuthServerRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/runner/AuthServerRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-auth/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-auth/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-auth/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-auth/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-common/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-common/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/FadminGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/FadminGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/filter/AdminAccessFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/filter/AdminAccessFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-perm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-perm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/runner/AuthServerRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/runner/AuthServerRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-rc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-rc.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/fadmin-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/fadmin-auth/target/" />
+    <ignored path="$PROJECT_DIR$/fadmin-perm/target/" />
+    <ignored path="$PROJECT_DIR$/fadmin-common/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1954038428">
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="30" />
+          <entry key="git.branch.checkout.remote" value="3" />
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cmd" value="13" />
+          <entry key="dockerfile" value="14" />
+          <entry key="iml" value="5" />
+          <entry key="java" value="106" />
+          <entry key="properties" value="16" />
+          <entry key="xml" value="34" />
+          <entry key="yaml" value="11" />
+          <entry key="yml" value="184" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="5" />
+          <entry key="JAVA" value="106" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Properties" value="16" />
+          <entry key="XML" value="34" />
+          <entry key="YAML" value="195" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="8" />
+          <entry key="txt" value="54" />
+          <entry key="xml" value="3" />
+          <entry key="yml" value="238" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="8" />
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="XML" value="3" />
+          <entry key="YAML" value="238" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.opened" value="27" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-199873740">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.14" value="6" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="59" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.remote" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="71" />
+          <entry key="properties" value="14" />
+          <entry key="txt" value="35" />
+          <entry key="xml" value="2" />
+          <entry key="yml" value="187" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="71" />
+          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="187" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="22" />
+          <entry key="dockerfile" value="1" />
+          <entry key="java" value="133" />
+          <entry key="mvnw" value="1" />
+          <entry key="properties" value="10" />
+          <entry key="xml" value="10" />
+          <entry key="yml" value="56" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="22" />
+          <entry key="JAVA" value="133" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="10" />
+          <entry key="XML" value="10" />
+          <entry key="YAML" value="56" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="fadmin-basic-services" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/util/authUtil/jwt/JWTHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/config/UserAuthConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/config/UrlFilterConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/filter/AdminAccessFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="195" selection-start-line="195" selection-end-line="195" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/repository/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1920">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="984">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/constant/RestCodeConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/repository/tk/mybatis/mapper-base/1.0.4/mapper-base-1.0.4.jar!/tk/mybatis/mapper/common/base/insert/InsertSelectiveMapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/reflect/ParameterizedType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>permService</find>
+      <find>word</find>
+      <find>start get pubkey</find>
+      <find>3367</find>
+      <find>CacheRedis</find>
+      <find>redisTemplate</find>
+      <find>redis</find>
+      <find>common</find>
+      <find>8083</find>
+      <find>userId</find>
+      <find>selectAuthorityMenuByUserId</find>
+      <find>insertSelective</find>
+      <find>414</find>
+      <find>startWiths</find>
+      <find>40101</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\idea-work\fadmin-basic-services\fadmin-auth</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="lijiafu &lt;lijiafu@show-fitness.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1.0-saas" />
+      </map>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/fadmin-auth/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-dev.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/filter/AdminAccessFilter.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fadmin-auth/.gitignore" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/FadminUserApplication.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/config/PageAspect.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/dao/DeliveryAddressMapper.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/dao/ThirdAccountMapper.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/dao/UserBasicMapper.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/dao/UserMemMapper.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/dao/UserProfileMapper.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/service/UserService.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/dao/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/test/java/f/s/fadminauth/UserControllerTests.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/fadmin-common/src/main/resources/application-rc.yml" />
+        <option value="$PROJECT_DIR$/fadmin-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/resources/application-rc.yml" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/fadmin-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/resources/application-test2.yml" />
+        <option value="$PROJECT_DIR$/fadmin-common/src/main/resources/application-test2.yml" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-test2.yml" />
+        <option value="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-rc.yml" />
+        <option value="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-test2.yml" />
+        <option value="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/fadmin-common/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-rc.yml" />
+        <option value="$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/rpc/UserRest.java" />
+        <option value="$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/FadminPermApplication.java" />
+        <option value="$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/FadminGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/fadmin-perm/pom.xml" />
+        <option value="$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/runner/AuthServerRunner.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/FadminAuthApplication.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/runner/AuthServerRunner.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/configuration/JedisConfig.java" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/fadmin-auth/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/fadmin-perm/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/fadmin-perm/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/filter/AdminAccessFilter.java" />
+        <option value="$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/config/UrlFilterConfig.java" />
+        <option value="$PROJECT_DIR$/fadmin-gateway/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.2.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fadmin-basic-services" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fadmin-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fadmin-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fadmin-perm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fadmin-perm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="fadmin-perm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1935" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Application Servers</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmingateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmingateway" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmingateway" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-perm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-perm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-perm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-perm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-perm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fadminperm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-perm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fadminperm" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-perm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fadminperm" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-perm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fadminperm" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-perm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fadmin-basic-services" type="462c0819:PsiDirectoryNode" />
+              <item name="fadmin-perm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.zuul:zuul-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.zuul:zuul-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="zuul-core-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fadmin-basic-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.zuul:zuul-core:1.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="zuul-core-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="UserMapper&#9;FILE&#9;file://D:/idea-work/fadmin-basic-services/fadmin-perm/src/main/resources/mapper/UserMapper.xml&#10;MenuMapper&#9;FILE&#9;file://D:/idea-work/fadmin-basic-services/fadmin-perm/src/main/resources/mapper/MenuMapper.xml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584457004151" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fbasic-services" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="f.s.fadmingateway.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\fadmin-basic-services\fadmin-perm\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FadminGatewayApplication">
+    <configuration name="FadminAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fadmin-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="f.s.fadminauth.FadminAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FadminGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fadmin-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="f.s.fadmingateway.FadminGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FadminPermApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fadmin-perm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="f.s.fadminperm.FadminPermApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.FadminGatewayApplication" />
+      <item itemvalue="Spring Boot.FadminAuthApplication" />
+      <item itemvalue="Spring Boot.FadminPermApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54670b6a-2bc8-4267-94ce-6c75f7ff6f85" name="Default Changelist" comment="" />
+      <created>1542597272998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542597272998</updated>
+      <workItem from="1542597274311" duration="3638000" />
+      <workItem from="1547460098631" duration="8138000" />
+      <workItem from="1547533954368" duration="6607000" />
+      <workItem from="1547544312591" duration="867000" />
+      <workItem from="1547545932954" duration="4454000" />
+      <workItem from="1547553328409" duration="5631000" />
+      <workItem from="1547694258480" duration="7954000" />
+      <workItem from="1547783034349" duration="704000" />
+      <workItem from="1547790501458" duration="1426000" />
+      <workItem from="1547794045554" duration="1193000" />
+      <workItem from="1547802819576" duration="5600000" />
+      <workItem from="1548043120173" duration="2540000" />
+      <workItem from="1548055419571" duration="599000" />
+      <workItem from="1548057621791" duration="1238000" />
+      <workItem from="1548127935526" duration="3328000" />
+      <workItem from="1548147661067" duration="1454000" />
+      <workItem from="1548154897831" duration="922000" />
+      <workItem from="1548208906250" duration="1436000" />
+      <workItem from="1548213601867" duration="3668000" />
+      <workItem from="1548225148481" duration="282000" />
+      <workItem from="1548225626233" duration="478000" />
+      <workItem from="1548226388915" duration="38000" />
+      <workItem from="1548228923943" duration="161000" />
+      <workItem from="1548229473572" duration="128000" />
+      <workItem from="1548230271205" duration="1774000" />
+      <workItem from="1548295407630" duration="15402000" />
+      <workItem from="1549852675103" duration="16404000" />
+      <workItem from="1556159902798" duration="599000" />
+      <workItem from="1576490265093" duration="2926000" />
+      <workItem from="1578031264041" duration="1922000" />
+      <workItem from="1578367405849" duration="1369000" />
+      <workItem from="1578881528464" duration="2409000" />
+      <workItem from="1578912992297" duration="420000" />
+      <workItem from="1578967524214" duration="1969000" />
+      <workItem from="1579068113353" duration="590000" />
+      <workItem from="1579159316638" duration="592000" />
+      <workItem from="1579591919506" duration="594000" />
+      <workItem from="1579614200364" duration="596000" />
+      <workItem from="1580369245349" duration="599000" />
+      <workItem from="1581494628715" duration="314000" />
+      <workItem from="1581558327569" duration="3990000" />
+      <workItem from="1581586020993" duration="4034000" />
+      <workItem from="1581732530005" duration="1601000" />
+      <workItem from="1581740588863" duration="24000" />
+      <workItem from="1581761145787" duration="262000" />
+      <workItem from="1581816279080" duration="599000" />
+      <workItem from="1581904435084" duration="599000" />
+      <workItem from="1581932643710" duration="595000" />
+      <workItem from="1581934377982" duration="3868000" />
+      <workItem from="1582074258666" duration="597000" />
+      <workItem from="1582098641848" duration="621000" />
+      <workItem from="1582165274018" duration="1206000" />
+      <workItem from="1582336598319" duration="2581000" />
+      <workItem from="1582598788853" duration="599000" />
+      <workItem from="1582616401648" duration="598000" />
+      <workItem from="1582704513894" duration="1096000" />
+      <workItem from="1582870832080" duration="3213000" />
+      <workItem from="1582880875323" duration="6757000" />
+      <workItem from="1582943083851" duration="1584000" />
+      <workItem from="1583026971073" duration="4236000" />
+      <workItem from="1583069513596" duration="1063000" />
+      <workItem from="1583114698625" duration="1807000" />
+      <workItem from="1583141829795" duration="599000" />
+      <workItem from="1584266188029" duration="4053000" />
+      <workItem from="1584324863002" duration="1328000" />
+      <workItem from="1584364331543" duration="597000" />
+      <workItem from="1584407646415" duration="598000" />
+      <workItem from="1584450133227" duration="2145000" />
+      <workItem from="1584496372050" duration="598000" />
+      <workItem from="1584585315869" duration="599000" />
+      <workItem from="1584756269199" duration="599000" />
+      <workItem from="1584868445671" duration="892000" />
+      <workItem from="1585019235283" duration="1202000" />
+      <workItem from="1585128040978" duration="596000" />
+      <workItem from="1585228517653" duration="595000" />
+      <workItem from="1585273970743" duration="587000" />
+      <workItem from="1585833036040" duration="1069000" />
+      <workItem from="1585874039646" duration="1294000" />
+      <workItem from="1585907978668" duration="2689000" />
+      <workItem from="1585972336346" duration="322000" />
+      <workItem from="1586048777964" duration="599000" />
+      <workItem from="1586135013874" duration="577000" />
+      <workItem from="1586415206041" duration="2934000" />
+      <workItem from="1586450347633" duration="597000" />
+      <workItem from="1586483231382" duration="1199000" />
+      <workItem from="1586604991982" duration="594000" />
+      <workItem from="1586659808868" duration="6000" />
+    </task>
+    <task id="LOCAL-00001" summary="fadmin-gateway:&quot;修改测试&quot;">
+      <created>1547543362259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547543362259</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fadmin-gateway:&quot;修改测试&quot;">
+      <created>1547556543069</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547556543069</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fadmin-gateway:&quot;修改测试&quot;">
+      <created>1547813795276</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547813795276</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fadmin-gateway:&quot;修改配置文件&quot;">
+      <created>1547814099244</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547814099244</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fadmin-gateway:&quot;添加fix测试环境&quot;">
+      <created>1548667529226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548667529226</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test.yml修改strip Prefix:false">
+      <created>1576490376511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576490376511</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="175693000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1290" height="696" extended-state="1" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.35308442" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5007299" side_tool="true" weight="0.24973205" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48175183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46532845" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32846716" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32846716" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.18222222" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32846716" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.29927006" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32497978" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49927008" visible="true" weight="0.34438157" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5007299" side_tool="true" weight="0.24973205" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48175183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38868612" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32846716" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32846716" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.18222222" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32846716" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.29927006" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32659662" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fadmin-gateway:&quot;修改测试&quot;" />
+    <MESSAGE value="fadmin-gateway:&quot;修改配置文件&quot;" />
+    <MESSAGE value="fadmin-gateway:&quot;添加fix测试环境&quot;" />
+    <MESSAGE value="test.yml修改strip Prefix:false" />
+    <option name="LAST_COMMIT_MESSAGE" value="test.yml修改strip Prefix:false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/service/impl/AuthServiceImpl.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/rest/UserController.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/rpc/service/PermissionService.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/rpc/service/PermissionService.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/rpc/service/PermissionService.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/rpc/service/PermissionService.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/biz/UserBiz.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/controller/AuthController.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/filter/AdminAccessFilter.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/filter/AdminAccessFilter.java</url>
+          <line>195</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/util/UserAuthUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/constant/CommonConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/util/user/JwtAuthenticationRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/util/user/JwtAuthenticationResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/rest/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/util/EntityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/msg/TableResultResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/repository/com/github/pagehelper/pagehelper/5.1.4/pagehelper-5.1.4.jar!/com/github/pagehelper/page/PageMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/test/java/f/s/fadminauth/FadminAuthApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/repository/com/github/pagehelper/pagehelper/5.1.4/pagehelper-5.1.4.jar!/com/github/pagehelper/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/util/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="97" column="56" lean-forward="true" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/constant/AdminCommonConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/repository/tk/mybatis/mapper-base/1.0.4/mapper-base-1.0.4.jar!/tk/mybatis/mapper/common/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/resources/mapper/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/mapper/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/biz/MenuBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/vo/MenuTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/rpc/service/PermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="133" column="27" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/util/TreeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="56" column="12" lean-forward="true" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/rest/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/rest/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/biz/BaseBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/java/f/s/fadminperm/biz/UserBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-perm/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/FadminGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/FadminAuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/repository/f/s/jcache/0.0.1-SNAPSHOT/jcache-0.0.1-SNAPSHOT.jar!/f/s/jcache/Cache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/runner/AuthServerRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/service/impl/AuthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-auth/src/main/java/f/s/fadminauth/util/user/JwtTokenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/util/authUtil/jwt/JWTHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/config/UserAuthConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/config/UrlFilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/repository/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-common/src/main/java/f/s/fadmincommon/constant/RestCodeConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/repository/tk/mybatis/mapper-base/1.0.4/mapper-base-1.0.4.jar!/tk/mybatis/mapper/common/base/insert/InsertSelectiveMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/reflect/ParameterizedType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fadmin-gateway/src/main/java/f/s/fadmingateway/filter/AdminAccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
